@@ -16,6 +16,7 @@ import com.amazonaws.mobile.client.results.ForgotPasswordResult
 import com.amazonaws.mobile.client.results.ForgotPasswordState
 
 
+
 class ForgotActivity : AppCompatActivity() {
     private val TAG = AuthActivity::class.java.simpleName
     override fun onCreate(savedInstanceState: Bundle?) {

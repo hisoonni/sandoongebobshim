@@ -15,6 +15,7 @@ import com.amazonaws.mobile.client.Callback
 import com.amazonaws.mobile.client.results.SignUpResult
 
 
+
 class OkActivity : AppCompatActivity() {
     var TAG = AuthActivity::class.java.simpleName
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -16,6 +16,7 @@ import com.amazonaws.mobile.client.results.SignUpResult
 import java.util.*
 
 
+
 class SignUpActivity : AppCompatActivity() {
     var TAG = AuthActivity::class.java.simpleName
     override fun onCreate(savedInstanceState: Bundle?) {

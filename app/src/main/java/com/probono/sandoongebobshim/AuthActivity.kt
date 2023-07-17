@@ -18,6 +18,7 @@ import com.amazonaws.mobile.client.results.SignInResult
 import com.amazonaws.mobile.client.results.SignInState
 
 
+
 class AuthActivity : AppCompatActivity() {
     private val TAG = AuthActivity::class.java.simpleName
     override fun onCreate(savedInstanceState: Bundle?) {
