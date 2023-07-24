@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="마지막 단계입니다!\n
-        인증 메일이 아래의 이메일 주소로 전송되었습니다!\n
+        인증 코드가 아래의 이메일 주소로 전송되었습니다!\n
         24시간 이내로 인증을 완료해주세요!"
         android:textSize="16dp"
         android:textStyle="bold" />
@@ -73,27 +73,35 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="text" />
-        <Button
-            android:id="@+id/Re_Ok_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="재전송" />
-
-
+            android:inputType="text"
+            tools:ignore="SpeakableTextPresentCheck"/>
 
     </LinearLayout>
 
 
-
-    <Button
-        android:id="@+id/Ok_button"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:orientation="horizontal"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:text="확인" />
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/Re_Ok_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="재전송"
+            android:background="@drawable/button_background" />
+
+        <Button
+            android:id="@+id/Ok_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="확인"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/button_background" />
+
+    </LinearLayout>
 
 
 </LinearLayout>
